@@ -1,6 +1,6 @@
 header{
     background-image: linear-gradient(to right, rgba(73, 134, 33, 0.850), rgba(165, 42, 42, 0.850));
-    height: 40px;
+    height: 5vh;
     width:100vw;
     position: fixed;
 }
@@ -16,7 +16,7 @@ nav ul{
     list-style: none;
 }
 .titulo{
-    margin-top: 40px;
+    margin-top: 5vh;
     color: #ff005e;
 }
 ol{
@@ -30,9 +30,9 @@ ol{
     flex-direction: column;
 }
 img{
-    width: 600px;
+    width: 35vw;
     height: auto;
-    margin: 12px;
+    margin: 2vh,2vw;
 }
 h2{
     color: white;
@@ -41,40 +41,45 @@ a{
     color: dodgerblue;
     display: inline-block;
     transition: font-size 0.3s ease;
+    height: 5vh;
+    width: 40vw;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 a:hover{
     transform: scale(1.30);
+
 }
 p{
     color: white;
-    margin: 32px;
+    margin: 4vw;
 }
 .creditos{
     background-color: rgba(83, 59, 121, 0.750);
     max-width: fit-content;
 }
 .neon {
-    width: 150px;
-    height: fit-content;
+    height: 5vh;
+    width: fit-content;
     position: fixed;
-    bottom: 20px;
-    left: 20px;
-    margin: 5px;
+    bottom: 6vh;
+    left: 0;
+    margin: 0;
     background: #000;
     font-family: 'Arial', sans-serif;
     overflow: hidden;
 }
 .texto {
-    font-size: 20px;
+    font-size: 1.5vh;
     color: #fff;
-    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    text-shadow: 0 0 1vh #ff005e, 0 0 2vh #ff005e, 0 0 3vh #ff005e, 0 0 4vh #ff005e, 0 0 5vh #ff005e;
     animation: glow 1.5s infinite alternate;
 }
 @keyframes glow {
     0% {
-        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+        text-shadow: 0 0 1vh #ff005e, 0 0 2vh #ff005e, 0 0 3vh #ff005e, 0 0 4vh #ff005e, 0 0 8vh #ff005e;
     }
     100% {
-        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+        text-shadow: 0 0 2vh #00d4ff, 0 0 3vh #00d4ff, 0 0 4vh #00d4ff, 0 0 8vh #00d4ff, 0 0 16vh #00d4ff;
     }
 }
